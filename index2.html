@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP row</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container card text-center p-0 border border-primary">
+      Premier niveau avec 12 colonnes
+      <div class="d-flex col-12">
+        <div class="col-8 card border border-primary">
+         Second niveau 8 colonnes
+          <div class="d-flex col-12 justify-content-between">
+            <div class="col-4 card border border-primary align-self-start">
+              troisième niveau avec 4 colonnes
+            </div>
+            <div class="col-6 card justify-self-end border border-primary">
+              troisième niveau avec 6 colonnes
+              <div class="d-flex col-12 justify-content-evenly">
+                <div class="card col-3 border border-primary">
+                  quatrième niveau avec 3 colonnes
+                </div>
+                <div class="card col-5 border border-primary align-self-start">
+                  quatrième niveau avec 5 colonnes
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container col-4">
+          <div class="row card border border-primary">second niveau avec 4 colonnes</div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
